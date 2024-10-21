@@ -11,6 +11,7 @@ test("stack", function () {
     expect(list.length).toEqual(2);
 
     list.push(11);
+    // 5 <- 7 <- 11
     expect(list.pop()).toEqual(11);
     expect(list.pop()).toEqual(7);
     expect(list.peek()).toEqual(5);
