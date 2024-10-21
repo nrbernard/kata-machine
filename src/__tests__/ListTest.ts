@@ -1,6 +1,6 @@
 export function test_list(list: List<number>): void {
     list.append(5);
-    list.append(7);
+    list.insertAt(7, 1);
     list.append(9);
 
     // 5, 7, 9
